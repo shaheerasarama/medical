@@ -1,0 +1,342 @@
+
+/* small screen */
+@media (min-width:319px) and (max-width:767px){
+    .options{
+        top: 200px;
+    }
+    .nav{
+        padding-bottom: 10px;
+    }
+    .nav-top{
+        display: none;
+    }
+    .nav .logo{
+        width: 50%;
+        padding-top: 10px;
+    }
+    .nav .logo img{
+        width: 70%;
+    }
+    .hamburger{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .header{
+        background-attachment:scroll;
+    }
+    .header-content{
+        text-align: center;
+        z-index: 2;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        color: white;
+    }
+    .header-content h1{
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    .header-content p{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+    .about .img{
+        float: none;
+        width: 100%;
+    }
+    .about .img img{
+        width: 100%;
+    }
+    .about-content{
+        float: none;
+        width: 100%;
+    }
+    .about-content ul li{
+        margin-bottom: 10px;
+    }
+    .about-content ul li i{
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .about-content ul li span{
+        font-size: 13px;
+
+    }
+    .numbers-box{
+        float: none;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .why-items .why-item{
+        float: none;
+        width: 100%;
+        overflow: hidden;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+    .why-item i{
+        float: left;
+        width: 5%;
+        color: var(--content-color);
+        font-size: 22px;
+        margin-right: 25px;
+    }
+    .patients{
+        padding-top: 30px;
+    }
+    .patients .patients-content{
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .patients .img{
+        float: none;
+        width: 100%;
+    }
+    .testimonials .testimonials-content{
+        text-align: center;
+    }
+    .testimonials-items{
+        overflow: hidden;
+    }
+    .testimonials-item{
+        float: none;
+        width: 100%;
+    }
+    .testimonials-item.hide{
+        display: none;
+    }
+    .testimonials ul li{
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        margin-left: 3px;
+        cursor: pointer;
+    }
+    .contact a{
+        width: 40%;
+    }
+    .footer .footer-about{
+        float: none;
+        width: 100%;
+    }
+    .footer .news{
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .footer .opening{
+        float: none;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .footer .contact-desc{
+        float: none;
+        width: 100%;
+    }
+    .footer-bottom p{
+        float: none;
+        width: 100%;
+        color: #d4dbe0;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-bottom ul{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* mediem */
+@media (min-width:768px) and (max-width:922px){
+    .options{
+        top: 300px;
+    }
+    .nav-top{
+        display: none;
+    }
+    .nav .logo{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .nav .logo img{
+        width: 40%;
+    }
+    .navbar{
+        width: 100%;
+        text-align: right;
+        overflow: hidden;
+        padding-top: 10px;
+    }
+    .navbar ul{
+        overflow: hidden;
+        padding-top: 10px;
+        float: left;
+        width: 90%;
+    }
+    .navbar ul li{
+        float: left;
+        width: fit-content;
+        height: 40px;
+        margin-left: 23px;
+        text-align: center;
+        line-height: 50px;
+        padding-bottom: 60px;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+    }
+    .header{
+        background-attachment:scroll;
+    }
+    .header-content{
+        top: 25%;
+        left: 5%;
+    }
+    .header-content h1{
+        font-size: 50px;
+    }
+    .header-content p{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+        line-height: 1.8;
+        font-size: 22px;
+    }
+    .about-content{
+        margin-top: 0;
+    }
+    .numbers-box{
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .why-item i{
+        float: left;
+        width: 5%;
+        color: var(--content-color);
+        font-size: 22px;
+        margin-top: 5px;
+    }
+    .why-item .why-item-content{
+        float: right;
+        width: 80%;
+    }
+    .testimonials-item{
+        float: left;
+        width: 45%;
+    }
+    .testimonials-item.hide-3{
+        display: none;
+    }
+    .testimonials-item.mg{
+        margin-left: 5%;
+    }
+    .contact a{
+        width: 20%;
+    }
+    .footer .footer-about{
+        float: left;
+        width: 45%;
+        margin-bottom: 35px;
+    }
+    .footer .news{
+        float: right;
+        width: 45%;
+        margin: 0;
+        margin-bottom: 0;
+    }
+    .footer .opening{
+        float: left;
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .footer .contact-desc{
+        float: right;
+        width: 45%;
+    }
+    .footer-bottom p{
+        float: left;
+        width: 50%;
+        margin-top: 5px;
+    }
+    .footer-bottom ul{
+        float: right;
+        width: 50%;
+    }
+
+}
+@media(min-width:923px)and (max-width:1160px){
+    .navbar ul{
+        overflow: hidden;
+        padding-top: 10px;
+        text-align: right;
+        float: left;
+        width: 90%;
+    }
+    .nav .logo{
+        float: left;
+        width: 30%;
+        margin-top: 5px;
+    }
+    .nav .logo img{
+        width: 60%;
+    }
+    .navbar{
+        float: right;
+        width: 60%;
+        text-align: right;
+        overflow: hidden;
+    }
+    .navbar ul li{
+        float: left;
+        width: fit-content;
+        height: 40px;
+        margin-left: 15px;
+        text-align: center;
+        line-height: 50px;
+        padding-bottom: 60px;
+    }
+    .navbar ul li.active {
+        border-bottom: 2px solid var(--main-color);
+    }
+    .navbar ul li:hover{
+        border-bottom: 2px solid var(--main-color);
+    }
+    .navbar ul li a{
+        color: #5a5a5a;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+    }
+    .navbar ul li.active a{
+        color: var(--main-color);
+    }
+    .navbar ul li a:hover{
+        color: var(--main-color);
+    }
+    .search{
+        float: left;
+        width: 10%;
+        line-height: 70px;
+        text-align: center;
+    }
+    .search i{
+        font-size: 20px;
+        color: var(--second-color);
+    }
+    .search i:hover{
+        color: var(--main-color);
+    }
+}
